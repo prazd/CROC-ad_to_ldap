@@ -48,7 +48,7 @@ for i in prox_list:
     check = user[i][1]['proxyAddresses'] # список мэилов из proxylist
     for j in range(len(check)):
         lol = re.findall('smtp:\w+.(@\w+)',check[j])
-        if len(lol) != 0 and lol[0] == '@mintrans':
+        if len(lol) != 0 and lol[0] == '@...':
             smtp+=[i]
             mail_smtp+=[check[j]]
 
