@@ -63,6 +63,4 @@ for i in smtp:
 for i in range(len(mail_smtp)-2):
     dic[mail_smtp[i]] = mail_SMTP[i]
 
-print(len(smtp))#SMTP
-print(len(SMTP))#smtp
 print(dic)
