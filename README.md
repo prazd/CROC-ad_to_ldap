@@ -1,1 +1,1 @@
-# ad_to_ldap
+# Active Directory info -> LDAP
